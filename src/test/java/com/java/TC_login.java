@@ -12,6 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TC_login {
 
+	//test retry class
 	@Test (retryAnalyzer = com.common.Retry.class)
 	public void login_test() throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
