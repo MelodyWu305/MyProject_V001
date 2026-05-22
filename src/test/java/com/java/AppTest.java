@@ -25,12 +25,12 @@ public class AppTest {
 	
 	@BeforeMethod
 	public void BeforeMethod() {
-		System.out.println("this is @BeforeMethod");
+		System.out.println("this is @BeforeMethod！！！！！！！！！！！");
 	}
 	
 	@AfterMethod
 	public void AfterMethod() {
-		System.out.println("this is @AfterMethod");
+		System.out.println("this is @AfterMethod！！！！！！！");
 	}
 	
 	@Test(priority=2,description="test logout ")

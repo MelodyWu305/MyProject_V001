@@ -27,6 +27,8 @@ public class TC_login2 {
 		driver.findElement(By.name("password")).sendKeys("admin123");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		
+		System.out.println("tesssstttsss");
+		
 //		Assert.assertTrue(false);
 		AssertJUnit.assertEquals(driver.getTitle(), "OrangeHRM");
 		
