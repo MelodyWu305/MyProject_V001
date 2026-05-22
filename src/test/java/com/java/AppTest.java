@@ -20,7 +20,7 @@ public class AppTest {
 	
 	@AfterTest
 	public void afterTest() {
-		System.out.println("this is after test");
+		System.out.println("this is after test@@@@@@@@@@@@@@@@@@@@@");
 	}
 	
 	@BeforeMethod
